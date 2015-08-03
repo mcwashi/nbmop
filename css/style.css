@@ -1,0 +1,166 @@
+/* CSS Document */
+body {
+	background-image: url(../images/bg_2.jpg);
+	background-repeat: repeat-x;
+	background-color: #cccccc;
+}
+
+#header{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	font-size: 9px;
+	background-image: url(../images/bg.gif);
+ }
+ 
+ /*Make sure your page contains a valid doctype at the top*/
+#fadeshow1{ //CSS for Simple Gallery Example 1
+position: absolute; /*keep this intact*/
+	visibility: hidden; /*keep this intact*/
+	/*border: thin solid #FFF;*/
+	z-index:-1;
+	top:167px;
+}
+
+#main{
+	position:relative;
+	top:167px;
+}
+
+#main1{
+	position:relative;
+	top:150px;
+}
+
+
+#simplegallery1 .gallerydesctext{ //CSS for description DIV of Example 1 (if defined)
+text-align: left;
+padding: 2px 5px;
+}
+
+.urbangreymenu{
+width: 225px; /*width of menu*/
+}
+
+.urbangreymenu .headerbar{
+font: bold 11px Verdana;
+color: white;
+background: #606060  no-repeat 8px 6px; /*last 2 values are the x and y coordinates of bullet image*/
+margin-bottom: 0; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 0px 0 7px 31px; /*31px is left indentation of header text*/
+}
+
+.urbangreymenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.urbangreymenu ul li{
+	padding-bottom: 2px; /*bottom spacing between menu items*/
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #185F93;
+}
+
+.urbangreymenu ul li a{
+font: normal 12px Verdana;
+color: black;
+background: #E9E9E9;
+display: block;
+padding: 5px 0;
+line-height: 17px;
+padding-left: 8px; /*link text is indented 8px*/
+text-decoration: none;
+}
+
+.urbangreymenu ul li a:visited{
+color: black;
+}
+
+.urbangreymenu ul li a:hover{ /*hover state CSS*/
+color: white;
+background: black;
+}
+.mainContent{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	
+}
+.BigMainContent{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000066;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 45px;
+	width: 600px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+	background: #b9c9fe url('../images/table-images/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-q3
+{
+	background: #b9c9fe url('../images/table-images/right.png') right -1px no-repeat;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	color: #669;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff url('../images/table-images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff url('../images/table-images/botright.png') right bottom no-repeat;
+}
+
+#rounded-corner1 tr:hover td
+{
+	background: #d0dafd;
+}
+.listmainContent{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding-left: 50px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+ 
